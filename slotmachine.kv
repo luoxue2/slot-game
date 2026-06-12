@@ -1,0 +1,17 @@
+#:kivy 2.1
+
+<SlotMachineGame>:
+    canvas.before:
+        Color:
+            rgba: 0.1, 0.1, 0.18, 1  # 深蓝色背景
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<ReelLabel>:
+    canvas.before:
+        Color:
+            rgba: 0.93, 0.95, 0.95, 1  # 浅灰白色
+        Rectangle:
+            pos: self.pos
+            size: self.size
